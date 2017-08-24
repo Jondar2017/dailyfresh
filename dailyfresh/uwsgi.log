@@ -1,0 +1,1870 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 12:55:12 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 12:56:49 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34299 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x207f1d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x207f1d0 pid: 7141 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7141)
+spawned uWSGI worker 1 (pid: 7144, cores: 2)
+spawned uWSGI worker 2 (pid: 7145, cores: 2)
+spawned uWSGI worker 3 (pid: 7146, cores: 2)
+spawned uWSGI worker 4 (pid: 7147, cores: 2)
+spawned uWSGI http 1 (pid: 7150)
+[pid: 7146|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 702 bytes} [Wed Aug 23 12:56:51 2017] GET / => generated 74 bytes in 50 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7144|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 695 bytes} [Wed Aug 23 12:56:55 2017] GET /goods/index/ => generated 12491 bytes in 101 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 7144|app: 0|req: 2/3] 127.0.0.1 () {38 vars in 648 bytes} [Wed Aug 23 12:56:55 2017] GET /static/js/slideshow.js => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 7144|app: 0|req: 3/4] 127.0.0.1 () {38 vars in 648 bytes} [Wed Aug 23 12:56:55 2017] GET /static/js/slideshow.js => generated 96 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 7150)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 7144)...
+Gracefully killing worker 4 (pid: 7147)...
+Gracefully killing worker 2 (pid: 7145)...
+Gracefully killing worker 3 (pid: 7146)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:34299)
+running /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 13:08:58 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:36965 (port auto-assigned) fd 4
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x71ef90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x71ef90 pid: 7141 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 7141)
+spawned uWSGI worker 1 (pid: 7475, cores: 2)
+spawned uWSGI worker 2 (pid: 7476, cores: 2)
+spawned uWSGI worker 3 (pid: 7477, cores: 2)
+spawned uWSGI worker 4 (pid: 7478, cores: 2)
+spawned uWSGI http 1 (pid: 7480)
+Wed Aug 23 13:10:27 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 15:27:57 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 15:29:56 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33759 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x219a120
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x219a120 pid: 2981 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2981)
+spawned uWSGI worker 1 (pid: 2984, cores: 2)
+spawned uWSGI worker 2 (pid: 2985, cores: 2)
+spawned uWSGI worker 3 (pid: 2986, cores: 2)
+spawned uWSGI worker 4 (pid: 2987, cores: 2)
+spawned uWSGI http 1 (pid: 2989)
+[pid: 2986|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 726 bytes} [Wed Aug 23 15:29:59 2017] GET /goods/index/ => generated 12491 bytes in 565 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 2984|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 648 bytes} [Wed Aug 23 15:30:00 2017] GET /static/js/slideshow.js => generated 96 bytes in 89 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2986|app: 0|req: 2/3] 127.0.0.1 () {42 vars in 715 bytes} [Wed Aug 23 15:30:00 2017] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+Wed Aug 23 15:30:24 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 15:30:24 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 15:30:24 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 15:30:24 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 15:30:24 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 15:30:24 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 15:30:24 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 15:30:24 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 15:30:39 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 15:37:53 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 15:39:38 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 15:59:29 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1441050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1441050 pid: 3717 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3717)
+spawned uWSGI worker 1 (pid: 3722, cores: 2)
+spawned uWSGI worker 2 (pid: 3723, cores: 2)
+spawned uWSGI worker 3 (pid: 3724, cores: 2)
+spawned uWSGI worker 4 (pid: 3725, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 16:05:30 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2015050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2015050 pid: 4119 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4119)
+spawned uWSGI worker 1 (pid: 4122, cores: 2)
+spawned uWSGI worker 2 (pid: 4123, cores: 2)
+spawned uWSGI worker 3 (pid: 4124, cores: 2)
+spawned uWSGI worker 4 (pid: 4125, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 4123|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 695 bytes} [Wed Aug 23 16:05:44 2017] GET /favicon.ico => generated 85 bytes in 70 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4123|app: 0|req: 2/2] 127.0.0.1 () {48 vars in 845 bytes} [Wed Aug 23 16:06:36 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4124|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:06:38 2017] GET / => generated 74 bytes in 52 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4122|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:06:39 2017] GET / => generated 74 bytes in 55 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4122|app: 0|req: 2/5] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:06:46 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4122|app: 0|req: 3/6] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:07:09 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 4125|app: 0|req: 1/7] 127.0.0.1 () {42 vars in 721 bytes} [Wed Aug 23 16:07:25 2017] GET / => generated 74 bytes in 71 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4124|app: 0|req: 2/8] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:09:09 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4124|app: 0|req: 3/9] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:09:10 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4123|app: 0|req: 3/10] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:09:11 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4124|app: 0|req: 4/11] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:09:28 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4123|app: 0|req: 4/12] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:09:31 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4124|app: 0|req: 5/13] 127.0.0.1 () {44 vars in 752 bytes} [Wed Aug 23 16:09:34 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Wed Aug 23 16:10:42 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 16:10:42 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 16:10:42 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 16:10:42 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 16:10:42 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 16:10:42 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 16:10:42 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 16:10:42 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 17:11:00 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xa5d050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xa5d050 pid: 4855 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4855)
+spawned uWSGI worker 1 (pid: 4858, cores: 2)
+spawned uWSGI worker 2 (pid: 4859, cores: 2)
+spawned uWSGI worker 3 (pid: 4861, cores: 2)
+spawned uWSGI worker 4 (pid: 4863, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Wed Aug 23 17:11:32 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:11:32 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:11:32 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:11:32 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:11:32 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:11:32 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:11:32 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:11:32 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 17:11:40 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38397 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x16f4120
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16f4120 pid: 4886 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4886)
+spawned uWSGI worker 1 (pid: 4889, cores: 2)
+spawned uWSGI worker 2 (pid: 4890, cores: 2)
+spawned uWSGI worker 3 (pid: 4892, cores: 2)
+spawned uWSGI worker 4 (pid: 4894, cores: 2)
+spawned uWSGI http 1 (pid: 4896)
+[pid: 4892|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 726 bytes} [Wed Aug 23 17:11:41 2017] GET /goods/index/ => generated 12491 bytes in 76 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4892|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 648 bytes} [Wed Aug 23 17:11:41 2017] GET /static/js/slideshow.js => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4890|app: 0|req: 1/3] 127.0.0.1 () {38 vars in 648 bytes} [Wed Aug 23 17:11:41 2017] GET /static/js/slideshow.js => generated 96 bytes in 55 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Wed Aug 23 17:12:48 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:12:48 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:12:48 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:12:48 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:12:48 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:12:48 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:12:48 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:12:48 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 17:12:53 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8001 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34715 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1ce3120
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1ce3120 pid: 4927 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4927)
+spawned uWSGI worker 1 (pid: 4930, cores: 2)
+spawned uWSGI worker 2 (pid: 4931, cores: 2)
+spawned uWSGI worker 3 (pid: 4932, cores: 2)
+spawned uWSGI worker 4 (pid: 4933, cores: 2)
+spawned uWSGI http 1 (pid: 4935)
+[pid: 4931|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 695 bytes} [Wed Aug 23 17:13:02 2017] GET /goods/index/ => generated 12491 bytes in 98 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 640 bytes} [Wed Aug 23 17:13:02 2017] GET /static/js/slide.js => generated 92 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 2/3] 127.0.0.1 () {38 vars in 656 bytes} [Wed Aug 23 17:13:02 2017] GET /static/js/jquery-ui.min.js => generated 100 bytes in 48 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 2/4] 127.0.0.1 () {38 vars in 659 bytes} [Wed Aug 23 17:13:02 2017] GET /static/css/reset.css => generated 94 bytes in 55 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 2/5] 127.0.0.1 () {38 vars in 657 bytes} [Wed Aug 23 17:13:02 2017] GET /static/css/main.css => generated 93 bytes in 78 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 2/6] 127.0.0.1 () {38 vars in 664 bytes} [Wed Aug 23 17:13:02 2017] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 74 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4930|app: 0|req: 4/7] 127.0.0.1 () {38 vars in 656 bytes} [Wed Aug 23 17:13:02 2017] GET /static/js/jquery-ui.min.js => generated 100 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 3/8] 127.0.0.1 () {38 vars in 640 bytes} [Wed Aug 23 17:13:02 2017] GET /static/js/slide.js => generated 92 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4930|app: 0|req: 4/9] 127.0.0.1 () {38 vars in 648 bytes} [Wed Aug 23 17:13:02 2017] GET /static/js/slideshow.js => generated 96 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 4/10] 127.0.0.1 () {38 vars in 684 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/logo.png => generated 96 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 3/11] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/slide03.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 4/12] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/slide04.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 5/13] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/slide02.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 6/14] 127.0.0.1 () {38 vars in 686 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/adv01.jpg => generated 97 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 7/15] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/banner01.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 8/16] 127.0.0.1 () {38 vars in 698 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/niuyouguo.jpg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 9/17] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/orange1.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 10/18] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/liulian.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 5/19] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/mangguo.jpg => generated 101 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 11/20] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/banner02.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 12/21] 127.0.0.1 () {38 vars in 698 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/diwangxie.jpg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 6/22] 127.0.0.1 () {38 vars in 696 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/sanwenyu.jpg => generated 102 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 13/24] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/banner03.jpg => generated 100 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 14/25] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/niurou.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 8/27] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/shanbei.jpg => generated 101 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 5/27] 127.0.0.1 () {38 vars in 700 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/kaoyangtui.jpg => generated 104 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 9/29] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/banner04.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 6/29] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/niupai.jpg => generated 100 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 16/30] 127.0.0.1 () {38 vars in 688 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/egg3.jpg => generated 98 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 9/30] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/hongxia.jpg => generated 101 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 16/31] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/yangpai.jpg => generated 101 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 18/32] 127.0.0.1 () {38 vars in 688 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/egg1.jpg => generated 98 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 19/33] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/yadan.jpg => generated 99 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 20/34] 127.0.0.1 () {38 vars in 688 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/egg2.jpg => generated 98 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 20/35] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/banner05.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 21/36] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/vege1.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 10/37] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/vege3.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 22/38] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/banner06.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 11/39] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/sudong4.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 23/40] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/sudong1.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 12/41] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/sudong2.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 24/42] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/sudong3.jpg => generated 101 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 8/43] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/vege2.jpg => generated 99 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 8/44] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:02 2017] GET /static/df_goods/vege4.jpg => generated 99 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 2/45] 127.0.0.1 () {38 vars in 686 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/slide.jpg => generated 97 bytes in 65 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 2/46] 127.0.0.1 () {38 vars in 686 bytes} [Wed Aug 23 17:13:02 2017] GET /static/images/adv02.jpg => generated 97 bytes in 62 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 13/47] 127.0.0.1 () {38 vars in 662 bytes} [Wed Aug 23 17:13:02 2017] GET /favicon.ico => generated 85 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 14/48] 127.0.0.1 () {40 vars in 726 bytes} [Wed Aug 23 17:13:19 2017] GET /goods/index/ => generated 12491 bytes in 26 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 15/50] 127.0.0.1 () {38 vars in 659 bytes} [Wed Aug 23 17:13:19 2017] GET /static/css/reset.css => generated 94 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 3/50] 127.0.0.1 () {38 vars in 657 bytes} [Wed Aug 23 17:13:19 2017] GET /static/css/main.css => generated 93 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 25/51] 127.0.0.1 () {38 vars in 664 bytes} [Wed Aug 23 17:13:19 2017] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 16/52] 127.0.0.1 () {38 vars in 656 bytes} [Wed Aug 23 17:13:19 2017] GET /static/js/jquery-ui.min.js => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 26/53] 127.0.0.1 () {38 vars in 640 bytes} [Wed Aug 23 17:13:19 2017] GET /static/js/slide.js => generated 92 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 17/55] 127.0.0.1 () {38 vars in 647 bytes} [Wed Aug 23 17:13:19 2017] GET /static/js/slideshow.js => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 27/55] 127.0.0.1 () {38 vars in 683 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/logo.png => generated 96 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 28/56] 127.0.0.1 () {38 vars in 685 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/slide.jpg => generated 97 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 29/57] 127.0.0.1 () {38 vars in 689 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/slide02.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 30/58] 127.0.0.1 () {38 vars in 689 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/slide03.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 31/59] 127.0.0.1 () {38 vars in 689 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/slide04.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 32/60] 127.0.0.1 () {38 vars in 697 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/niuyouguo.jpg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 33/61] 127.0.0.1 () {38 vars in 686 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/adv01.jpg => generated 97 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 34/62] 127.0.0.1 () {38 vars in 686 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/adv02.jpg => generated 97 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 4/63] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/banner01.jpg => generated 100 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 35/64] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/orange1.jpg => generated 101 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 5/66] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/banner02.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 37/66] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/mangguo.jpg => generated 101 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 6/68] 127.0.0.1 () {38 vars in 696 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/sanwenyu.jpg => generated 102 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 38/68] 127.0.0.1 () {38 vars in 698 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/diwangxie.jpg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 7/69] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/hongxia.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 38/70] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/liulian.jpg => generated 101 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 39/71] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/shanbei.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 8/72] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/banner03.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 9/73] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/niupai.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 40/74] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/yangpai.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 19/75] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/niurou.jpg => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 19/76] 127.0.0.1 () {38 vars in 700 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/kaoyangtui.jpg => generated 104 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 21/77] 127.0.0.1 () {38 vars in 688 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/egg3.jpg => generated 98 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 41/78] 127.0.0.1 () {38 vars in 688 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/egg1.jpg => generated 98 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 10/79] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/yadan.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 22/80] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/banner04.jpg => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 22/81] 127.0.0.1 () {38 vars in 688 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/egg2.jpg => generated 98 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4930|app: 0|req: 9/82] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/banner05.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 11/83] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/vege1.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 10/84] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/vege4.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 11/85] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/vege2.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4930|app: 0|req: 12/86] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/vege3.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 12/88] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:19 2017] GET /static/images/banner06.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 13/88] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/sudong4.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4930|app: 0|req: 14/89] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/sudong1.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 13/90] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/sudong2.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 14/91] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:19 2017] GET /static/df_goods/sudong3.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 15/92] 127.0.0.1 () {40 vars in 726 bytes} [Wed Aug 23 17:13:21 2017] GET /goods/index/ => generated 12491 bytes in 28 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 42/93] 127.0.0.1 () {38 vars in 659 bytes} [Wed Aug 23 17:13:21 2017] GET /static/css/reset.css => generated 94 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 43/94] 127.0.0.1 () {38 vars in 657 bytes} [Wed Aug 23 17:13:21 2017] GET /static/css/main.css => generated 93 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 24/95] 127.0.0.1 () {38 vars in 656 bytes} [Wed Aug 23 17:13:21 2017] GET /static/js/jquery-ui.min.js => generated 100 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 15/96] 127.0.0.1 () {38 vars in 640 bytes} [Wed Aug 23 17:13:21 2017] GET /static/js/slide.js => generated 92 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 24/97] 127.0.0.1 () {38 vars in 664 bytes} [Wed Aug 23 17:13:21 2017] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 25/98] 127.0.0.1 () {38 vars in 648 bytes} [Wed Aug 23 17:13:21 2017] GET /static/js/slideshow.js => generated 96 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 44/99] 127.0.0.1 () {38 vars in 656 bytes} [Wed Aug 23 17:13:21 2017] GET /static/js/jquery-ui.min.js => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 26/100] 127.0.0.1 () {38 vars in 684 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/logo.png => generated 96 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 27/101] 127.0.0.1 () {38 vars in 686 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/slide.jpg => generated 97 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 45/102] 127.0.0.1 () {38 vars in 640 bytes} [Wed Aug 23 17:13:21 2017] GET /static/js/slide.js => generated 92 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 28/103] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/slide02.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 16/104] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/slide03.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 29/105] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/slide04.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 46/106] 127.0.0.1 () {38 vars in 686 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/adv02.jpg => generated 97 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 16/107] 127.0.0.1 () {38 vars in 686 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/adv01.jpg => generated 97 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 30/108] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/banner01.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 31/109] 127.0.0.1 () {38 vars in 698 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/niuyouguo.jpg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 32/110] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/orange1.jpg => generated 101 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 33/111] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/mangguo.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 17/112] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/liulian.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 18/113] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/banner02.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 47/114] 127.0.0.1 () {38 vars in 696 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/sanwenyu.jpg => generated 102 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 19/115] 127.0.0.1 () {38 vars in 646 bytes} [Wed Aug 23 17:13:21 2017] GET /static/js/slideshow.js => generated 96 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4930|app: 0|req: 17/117] 127.0.0.1 () {38 vars in 697 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/diwangxie.jpg => generated 103 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 48/117] 127.0.0.1 () {38 vars in 693 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/hongxia.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 20/118] 127.0.0.1 () {38 vars in 693 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/shanbei.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4930|app: 0|req: 18/119] 127.0.0.1 () {38 vars in 691 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/banner03.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 49/120] 127.0.0.1 () {38 vars in 691 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/niurou.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 19/123] 127.0.0.1 () {38 vars in 699 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/kaoyangtui.jpg => generated 104 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 21/123] 127.0.0.1 () {38 vars in 691 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/niupai.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 50/123] 127.0.0.1 () {38 vars in 693 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/yangpai.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4930|app: 0|req: 20/124] 127.0.0.1 () {38 vars in 691 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/banner04.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 34/125] 127.0.0.1 () {38 vars in 687 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/egg3.jpg => generated 98 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 51/126] 127.0.0.1 () {38 vars in 687 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/egg1.jpg => generated 98 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 22/127] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/yadan.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 52/128] 127.0.0.1 () {38 vars in 688 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/egg2.jpg => generated 98 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4933|app: 0|req: 35/130] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/banner05.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 53/130] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/vege1.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 23/131] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/vege4.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4930|app: 0|req: 21/132] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/vege2.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4933|app: 0|req: 36/133] 127.0.0.1 () {38 vars in 690 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/vege3.jpg => generated 99 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4931|app: 0|req: 54/134] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:13:21 2017] GET /static/images/banner06.jpg => generated 100 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4932|app: 0|req: 24/135] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/sudong4.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 4930|app: 0|req: 22/136] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/sudong1.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4931|app: 0|req: 55/137] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/sudong2.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 4932|app: 0|req: 25/138] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:13:21 2017] GET /static/df_goods/sudong3.jpg => generated 101 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4935)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 17:22:17 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44847 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x259f120
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x259f120 pid: 5033 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5033)
+spawned uWSGI worker 1 (pid: 5036, cores: 2)
+spawned uWSGI worker 2 (pid: 5037, cores: 2)
+spawned uWSGI worker 3 (pid: 5038, cores: 2)
+spawned uWSGI worker 4 (pid: 5039, cores: 2)
+spawned uWSGI http 1 (pid: 5041)
+[pid: 5039|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 694 bytes} [Wed Aug 23 17:22:22 2017] GET /goods/index/ => generated 12491 bytes in 77 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5038|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 647 bytes} [Wed Aug 23 17:22:22 2017] GET /static/js/slideshow.js => generated 96 bytes in 60 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5041)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 17:25:58 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 17:29:17 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33219 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2527120
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2527120 pid: 5589 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5589)
+spawned uWSGI worker 1 (pid: 5592, cores: 2)
+spawned uWSGI worker 2 (pid: 5593, cores: 2)
+spawned uWSGI worker 3 (pid: 5594, cores: 2)
+spawned uWSGI worker 4 (pid: 5595, cores: 2)
+spawned uWSGI http 1 (pid: 5598)
+[pid: 5594|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 726 bytes} [Wed Aug 23 17:29:21 2017] GET /goods/index/ => generated 12491 bytes in 104 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5594|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 648 bytes} [Wed Aug 23 17:29:21 2017] GET /static/js/slideshow.js => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 5593|app: 0|req: 1/3] 127.0.0.1 () {38 vars in 648 bytes} [Wed Aug 23 17:29:21 2017] GET /static/js/slideshow.js => generated 96 bytes in 55 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5593|app: 0|req: 2/4] 127.0.0.1 () {38 vars in 683 bytes} [Wed Aug 23 17:30:02 2017] GET /admin/ => generated 0 bytes in 18 msecs (HTTP/1.1 302) 7 headers in 276 bytes (1 switches on core 1)
+[pid: 5594|app: 0|req: 3/5] 127.0.0.1 () {38 vars in 720 bytes} [Wed Aug 23 17:30:02 2017] GET /admin/login/?next=/admin/ => generated 1917 bytes in 125 msecs (HTTP/1.1 200) 7 headers in 336 bytes (1 switches on core 1)
+[pid: 5592|app: 0|req: 1/6] 127.0.0.1 () {48 vars in 921 bytes} [Wed Aug 23 17:30:09 2017] POST /admin/login/?next=/admin/ => generated 0 bytes in 370 msecs (HTTP/1.1 302) 9 headers in 510 bytes (1 switches on core 0)
+[pid: 5595|app: 0|req: 1/7] 127.0.0.1 () {42 vars in 821 bytes} [Wed Aug 23 17:30:09 2017] GET /admin/ => generated 7112 bytes in 94 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 5592|app: 0|req: 2/8] 127.0.0.1 () {44 vars in 876 bytes} [Wed Aug 23 17:30:24 2017] GET /admin/ => generated 7112 bytes in 46 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 5595|app: 0|req: 2/9] 127.0.0.1 () {44 vars in 876 bytes} [Wed Aug 23 17:30:26 2017] GET /admin/ => generated 7112 bytes in 46 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 5595|app: 0|req: 3/10] 127.0.0.1 () {44 vars in 876 bytes} [Wed Aug 23 17:30:27 2017] GET /admin/ => generated 7112 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 5594|app: 0|req: 4/11] 127.0.0.1 () {38 vars in 739 bytes} [Wed Aug 23 17:30:35 2017] GET /goods/index/ => generated 12491 bytes in 57 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5595|app: 0|req: 4/12] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:30:35 2017] GET /static/js/slideshow.js => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5595|app: 0|req: 5/13] 127.0.0.1 () {38 vars in 692 bytes} [Wed Aug 23 17:30:35 2017] GET /static/js/slideshow.js => generated 96 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+Wed Aug 23 17:31:46 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:31:46 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:31:46 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:31:46 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:31:46 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:31:46 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:31:46 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Aug 23 17:31:46 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 17:35:26 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x7ff050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff050 pid: 5692 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5692)
+spawned uWSGI worker 1 (pid: 5695, cores: 2)
+spawned uWSGI worker 2 (pid: 5696, cores: 2)
+spawned uWSGI worker 3 (pid: 5697, cores: 2)
+spawned uWSGI worker 4 (pid: 5698, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 17:37:04 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x78b050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x78b050 pid: 5830 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5830)
+spawned uWSGI worker 1 (pid: 5833, cores: 2)
+spawned uWSGI worker 2 (pid: 5834, cores: 2)
+spawned uWSGI worker 3 (pid: 5835, cores: 2)
+spawned uWSGI worker 4 (pid: 5836, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 5833|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 765 bytes} [Wed Aug 23 17:37:18 2017] GET / => generated 74 bytes in 95 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5834|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 796 bytes} [Wed Aug 23 17:37:36 2017] GET / => generated 74 bytes in 62 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 5834|app: 0|req: 2/3] 127.0.0.1 () {30 vars in 334 bytes} [Wed Aug 23 17:44:19 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5833|app: 0|req: 2/4] 127.0.0.1 () {30 vars in 334 bytes} [Wed Aug 23 17:54:19 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 5833|app: 0|req: 3/5] 127.0.0.1 () {30 vars in 334 bytes} [Wed Aug 23 18:04:19 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 5833|app: 0|req: 4/6] 127.0.0.1 () {30 vars in 334 bytes} [Wed Aug 23 18:14:20 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5833|app: 0|req: 5/7] 127.0.0.1 () {30 vars in 334 bytes} [Wed Aug 23 18:24:19 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 5836|app: 0|req: 1/8] 127.0.0.1 () {30 vars in 334 bytes} [Wed Aug 23 18:34:20 2017] GET / => generated 74 bytes in 52 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 5836|app: 0|req: 2/9] 127.0.0.1 () {30 vars in 334 bytes} [Wed Aug 23 18:44:19 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 5836|app: 0|req: 3/10] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 18:50:58 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 5835|app: 0|req: 1/11] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 18:51:06 2017] GET / => generated 74 bytes in 80 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 18:53:35 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1585050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1585050 pid: 6875 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6875)
+spawned uWSGI worker 1 (pid: 6878, cores: 2)
+spawned uWSGI worker 2 (pid: 6879, cores: 2)
+spawned uWSGI worker 3 (pid: 6880, cores: 2)
+spawned uWSGI worker 4 (pid: 6881, cores: 2)
+[pid: 6880|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 18:53:37 2017] GET / => generated 74 bytes in 51 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 6881|app: 0|req: 1/2] 127.0.0.1 () {30 vars in 316 bytes} [Wed Aug 23 18:54:19 2017] GET / => generated 74 bytes in 50 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 6881|app: 0|req: 2/3] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 18:56:17 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6878|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 18:56:43 2017] GET / => generated 74 bytes in 64 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6878|app: 0|req: 2/5] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 18:56:45 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6879|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 18:56:47 2017] GET / => generated 74 bytes in 53 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6879|app: 0|req: 2/7] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 18:56:48 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6881|app: 0|req: 3/8] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 18:57:31 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6881|app: 0|req: 4/9] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 18:57:33 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 6881|app: 0|req: 5/10] 127.0.0.1 () {30 vars in 316 bytes} [Wed Aug 23 19:04:19 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 19:07:12 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1e63050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1e63050 pid: 7202 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7202)
+spawned uWSGI worker 1 (pid: 7205, cores: 2)
+spawned uWSGI worker 2 (pid: 7206, cores: 2)
+spawned uWSGI worker 3 (pid: 7207, cores: 2)
+spawned uWSGI worker 4 (pid: 7208, cores: 2)
+[pid: 7207|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:10:18 2017] GET / => generated 74 bytes in 52 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7206|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:10:19 2017] GET / => generated 74 bytes in 97 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7206|app: 0|req: 2/3] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 19:10:29 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 19:11:16 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1e7b050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1e7b050 pid: 7410 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7410)
+spawned uWSGI worker 1 (pid: 7413, cores: 2)
+spawned uWSGI worker 2 (pid: 7414, cores: 2)
+spawned uWSGI worker 3 (pid: 7415, cores: 2)
+spawned uWSGI worker 4 (pid: 7416, cores: 2)
+[pid: 7414|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:11:18 2017] GET / => generated 74 bytes in 115 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7413|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:11:19 2017] GET / => generated 74 bytes in 89 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7416|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:11:20 2017] GET / => generated 74 bytes in 71 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7416|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:11:22 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 7416|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:11:23 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 7413|app: 0|req: 2/6] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:11:24 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 19:15:23 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x9dd050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file dailyfresh.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7561)
+spawned uWSGI worker 1 (pid: 7562, cores: 2)
+spawned uWSGI worker 2 (pid: 7563, cores: 2)
+spawned uWSGI worker 3 (pid: 7564, cores: 2)
+spawned uWSGI worker 4 (pid: 7565, cores: 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 7564|app: -1|req: -1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:15:29 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 19:16:19 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1b98050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1b98050 pid: 7592 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7592)
+spawned uWSGI worker 1 (pid: 7595, cores: 2)
+spawned uWSGI worker 2 (pid: 7596, cores: 2)
+spawned uWSGI worker 3 (pid: 7597, cores: 2)
+spawned uWSGI worker 4 (pid: 7598, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 7598|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 19:16:27 2017] GET / => generated 74 bytes in 83 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 7595|app: 0|req: 1/2] 127.0.0.1 () {30 vars in 316 bytes} [Wed Aug 23 19:24:20 2017] GET / => generated 74 bytes in 79 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7598|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:29:26 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7598|app: 0|req: 3/4] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:29:27 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 7596|app: 0|req: 1/5] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:29:29 2017] GET / => generated 74 bytes in 52 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 19:33:19 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1620050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1620050 pid: 7765 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7765)
+spawned uWSGI worker 1 (pid: 7768, cores: 2)
+spawned uWSGI worker 2 (pid: 7769, cores: 2)
+spawned uWSGI worker 3 (pid: 7770, cores: 2)
+spawned uWSGI worker 4 (pid: 7771, cores: 2)
+[pid: 7769|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:33:23 2017] GET / => generated 74 bytes in 51 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7771|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:33:25 2017] GET / => generated 74 bytes in 52 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 7771|app: 0|req: 2/3] 127.0.0.1 () {30 vars in 316 bytes} [Wed Aug 23 19:34:18 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 19:44:32 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1c3c050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1c3c050 pid: 7883 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7883)
+spawned uWSGI worker 1 (pid: 7886, cores: 2)
+spawned uWSGI worker 2 (pid: 7887, cores: 2)
+spawned uWSGI worker 3 (pid: 7888, cores: 2)
+spawned uWSGI worker 4 (pid: 7889, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 7889|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 19:50:28 2017] GET / => generated 74 bytes in 50 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 7889|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 19:51:09 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 19:59:43 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x15e5050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x15e5050 pid: 8311 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8311)
+spawned uWSGI worker 1 (pid: 8314, cores: 2)
+spawned uWSGI worker 2 (pid: 8315, cores: 2)
+spawned uWSGI worker 3 (pid: 8316, cores: 2)
+spawned uWSGI worker 4 (pid: 8319, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 8315|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 19:59:51 2017] GET / => generated 74 bytes in 79 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8315|app: 0|req: 2/2] 127.0.0.1 () {30 vars in 316 bytes} [Wed Aug 23 20:04:19 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:08:50 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1585050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1585050 pid: 8419 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8419)
+spawned uWSGI worker 1 (pid: 8422, cores: 2)
+spawned uWSGI worker 2 (pid: 8423, cores: 2)
+spawned uWSGI worker 3 (pid: 8424, cores: 2)
+spawned uWSGI worker 4 (pid: 8425, cores: 2)
+[pid: 8422|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:09:33 2017] GET / => generated 74 bytes in 56 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8425|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:09:35 2017] GET / => generated 74 bytes in 81 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8423|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:09:37 2017] GET / => generated 74 bytes in 63 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 8424|app: 0|req: 1/4] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 20:09:55 2017] GET / => generated 74 bytes in 82 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8423|app: 0|req: 2/5] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:00 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8423|app: 0|req: 3/6] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:28 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8424|app: 0|req: 2/7] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:29 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8422|app: 0|req: 2/8] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:31 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8425|app: 0|req: 2/9] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:32 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8422|app: 0|req: 3/10] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:32 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8423|app: 0|req: 4/11] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:33 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8423|app: 0|req: 5/12] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:33 2017] GET / => generated 74 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8425|app: 0|req: 3/13] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:34 2017] GET / => generated 74 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8425|app: 0|req: 4/14] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:34 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8425|app: 0|req: 5/15] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:10:35 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:11:37 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1810050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1810050 pid: 8570 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8570)
+spawned uWSGI worker 1 (pid: 8573, cores: 2)
+spawned uWSGI worker 2 (pid: 8574, cores: 2)
+spawned uWSGI worker 3 (pid: 8575, cores: 2)
+spawned uWSGI worker 4 (pid: 8576, cores: 2)
+[pid: 8575|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:11:39 2017] GET / => generated 74 bytes in 55 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8573|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:11:40 2017] GET / => generated 74 bytes in 53 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8573|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:11:42 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8574|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:11:42 2017] GET / => generated 74 bytes in 52 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8576|app: 0|req: 1/5] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:11:43 2017] GET / => generated 74 bytes in 54 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:12:06 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x12c6050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file dailyfresh/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8599)
+spawned uWSGI worker 1 (pid: 8600, cores: 2)
+spawned uWSGI worker 2 (pid: 8601, cores: 2)
+spawned uWSGI worker 3 (pid: 8602, cores: 2)
+spawned uWSGI worker 4 (pid: 8603, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+--- no python application found, check your startup logs for errors ---
+[pid: 8601|app: -1|req: -1/1] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 20:12:18 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 8603|app: -1|req: -1/2] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:13:05 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:13:09 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x169e050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x169e050 pid: 8628 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8628)
+spawned uWSGI worker 1 (pid: 8631, cores: 2)
+spawned uWSGI worker 2 (pid: 8632, cores: 2)
+spawned uWSGI worker 3 (pid: 8633, cores: 2)
+spawned uWSGI worker 4 (pid: 8634, cores: 2)
+[pid: 8631|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:13:11 2017] GET / => generated 74 bytes in 98 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 8631|app: 0|req: 2/2] 127.0.0.1 () {30 vars in 316 bytes} [Wed Aug 23 20:14:19 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 8633|app: 0|req: 1/3] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 20:18:06 2017] GET / => generated 74 bytes in 82 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:18:15 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1a53050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a53050 pid: 8775 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8775)
+spawned uWSGI worker 1 (pid: 8778, cores: 2)
+spawned uWSGI worker 2 (pid: 8779, cores: 2)
+spawned uWSGI worker 3 (pid: 8780, cores: 2)
+spawned uWSGI worker 4 (pid: 8781, cores: 2)
+[pid: 8778|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:18:17 2017] GET / => generated 74 bytes in 50 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8778|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:18:18 2017] GET / => generated 74 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8780|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:18:19 2017] GET / => generated 74 bytes in 90 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8779|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:18:20 2017] GET / => generated 74 bytes in 83 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8778|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:19:24 2017] GET / => generated 74 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8778|app: 0|req: 4/6] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:19:25 2017] GET / => generated 74 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8781|app: 0|req: 1/7] 127.0.0.1 () {44 vars in 828 bytes} [Wed Aug 23 20:22:20 2017] GET / => generated 74 bytes in 87 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 8781|app: 0|req: 2/8] 127.0.0.1 () {44 vars in 828 bytes} [Wed Aug 23 20:22:22 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 8781|app: 0|req: 3/9] 127.0.0.1 () {44 vars in 828 bytes} [Wed Aug 23 20:22:23 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:40:56 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1019050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1019050 pid: 9182 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9182)
+spawned uWSGI worker 1 (pid: 9186, cores: 2)
+spawned uWSGI worker 2 (pid: 9187, cores: 2)
+spawned uWSGI worker 3 (pid: 9188, cores: 2)
+spawned uWSGI worker 4 (pid: 9189, cores: 2)
+[pid: 9188|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 828 bytes} [Wed Aug 23 20:40:58 2017] GET / => generated 74 bytes in 65 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 9186|app: 0|req: 1/2] 127.0.0.1 () {30 vars in 366 bytes} [Wed Aug 23 20:44:19 2017] GET / => generated 74 bytes in 50 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:50:38 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x223d050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x223d050 pid: 9369 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9369)
+spawned uWSGI worker 1 (pid: 9373, cores: 2)
+spawned uWSGI worker 2 (pid: 9374, cores: 2)
+spawned uWSGI worker 3 (pid: 9375, cores: 2)
+spawned uWSGI worker 4 (pid: 9376, cores: 2)
+[pid: 9373|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:50:40 2017] GET / => generated 74 bytes in 98 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 9375|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:51:29 2017] GET / => generated 74 bytes in 55 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 9374|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:51:30 2017] GET / => generated 74 bytes in 99 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:51:36 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 9374|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:51:39 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 9375|app: 0|req: 2/5] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:51:40 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 9376|app: 0|req: 1/6] 127.0.0.1 () {42 vars in 747 bytes} [Wed Aug 23 20:53:35 2017] GET / => generated 74 bytes in 51 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 9376|app: 0|req: 2/7] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:53:53 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 9374|app: 0|req: 3/8] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:53:54 2017] GET / => generated 74 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:54:05 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 9374|app: 0|req: 4/9] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 20:54:08 2017] GET / => generated 74 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 9373|app: 0|req: 2/10] 127.0.0.1 () {30 vars in 316 bytes} [Wed Aug 23 20:54:19 2017] GET / => generated 74 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 80 bytes (1 switches on core 1)
+...brutally killing workers...
+worker 3 buried after 0 seconds
+worker 4 buried after 0 seconds
+Gracefully killing worker 2 (pid: 9374)...
+Gracefully killing worker 1 (pid: 9373)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 20:55:38 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x17af9b0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x17af9b0 pid: 9369 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 9369)
+spawned uWSGI worker 1 (pid: 9674, cores: 2)
+spawned uWSGI worker 2 (pid: 9675, cores: 2)
+spawned uWSGI worker 3 (pid: 9676, cores: 2)
+spawned uWSGI worker 4 (pid: 9677, cores: 2)
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:02:27 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1c4a050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1c4a050 pid: 2592 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2592)
+spawned uWSGI worker 1 (pid: 2595, cores: 2)
+spawned uWSGI worker 2 (pid: 2596, cores: 2)
+spawned uWSGI worker 3 (pid: 2597, cores: 2)
+spawned uWSGI worker 4 (pid: 2598, cores: 2)
+[pid: 2596|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 21:02:30 2017] GET / => generated 74 bytes in 377 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2597|app: 0|req: 1/2] 127.0.0.1 () {46 vars in 774 bytes} [Wed Aug 23 21:02:30 2017] GET /favicon.ico => generated 85 bytes in 51 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2595|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 21:05:55 2017] GET / => generated 74 bytes in 90 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 2598|app: 0|req: 1/4] 127.0.0.1 () {44 vars in 778 bytes} [Wed Aug 23 21:05:56 2017] GET / => generated 74 bytes in 72 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:58:06 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:00:21 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:02:14 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:06:58 2017] ***
+compiled with version: 5.4.0 20160609 on 14 August 2017 10:30:43
+os: Linux-4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017
+nodename: jondar-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/jondar/.local/virtualenvs/py2env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/jondar/PythonProject/DjangoProjects/dailyfresh/dailyfresh/
+your processes number limit is 31466
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]

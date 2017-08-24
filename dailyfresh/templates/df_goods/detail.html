@@ -1,0 +1,128 @@
+{% extends 'df_goods/base.html' %}
+{% block head%}
+<script>
+	$(function() {
+	    var num_show = $('.num_show');
+		var input_value = num_show.val();
+		$('.add').click(function(){
+		    input_value++;
+		    num_show.val(input_value)
+			total()
+		});
+		$('.minus').click(function(){
+		   	if (input_value <= 1){
+		   	    return;
+			} else {
+		   	    input_value--;
+		   	    num_show.val(input_value)
+				total()
+			}
+		});
+		num_show.blur(function(){
+		    total()
+		});
+		function total() {
+			var input_value = parseInt(num_show.val());
+			num_show.val(input_value);
+		    var price = parseInt($('.show_pirze em').html());
+			var total_price = (input_value * price).toFixed(2);
+			$('.total em').html(total_price + '元');
+        }
+    })
+</script>
+{% endblock head%}
+{% block body %}
+	<div class="goods_detail_con clearfix">
+		<div class="goods_detail_pic fl"><img src="/static/{{goods.gpic}}" width="350" height="350"></div>
+
+		<div class="goods_detail_list fr">
+			<h3>{{goods.gtitle}}</h3>
+			<p>{{goods.gintro}}</p>
+			<div class="prize_bar">
+				<span class="show_pirze">¥<em>{{goods.gprice}}</em></span>
+				<span class="show_unit">单  位：{{goods.gunit}}</span>
+			</div>
+			<div class="goods_num clearfix">
+				<div class="num_name fl">数 量：</div>
+				<div class="num_add fl">
+					<input type="text" class="num_show fl" value="1">
+					<a href="javascript:;" class="add fr">+</a>
+					<a href="javascript:;" class="minus fr">-</a>	
+				</div> 
+			</div>
+			<div class="total">总价：<em>{{goods.gprice}}元</em></div>
+			<div class="operate_btn">
+				<a href="javascript:;" class="buy_btn">立即购买</a>
+				<a href="javascript:;" class="add_cart" id="add_cart">加入购物车</a>				
+			</div>
+		</div>
+	</div>
+
+	<div class="main_wrap clearfix">
+		<div class="l_wrap fl clearfix">
+			<div class="new_goods">
+				<h3>新品推荐</h3>
+				<ul>
+					{% for new in news %}
+					<li>
+						<a href="/goods/{{new.id}}"><img src="/static/{{new.gpic}}"></a>
+						<h4><a href="/goods/{{new.id}}">{{new.gtitle}}</a></h4>
+						<div class="prize">￥{{new.gprice}}</div>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+		<div class="r_wrap fr clearfix">
+			<ul class="detail_tab clearfix">
+				<li class="active">商品介绍</li>
+				<li>评论</li>
+			</ul>
+
+			<div class="tab_content">
+				<dl>
+					<dt>商品详情：</dt>
+					<dd>{{goods.gcontent|safe}}</dd>
+				</dl>
+			</div>
+
+		</div>
+	</div>
+    <div class="add_jump"></div>
+
+        <script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript">
+            var $add_x = $('#add_cart').offset().top;
+            var $add_y = $('#add_cart').offset().left;
+
+            var $to_x = $('#show_count').offset().top;
+            var $to_y = $('#show_count').offset().left;
+
+            $(".add_jump").css({'left':$add_y+80,'top':$add_x+10,'display':'block'})
+            $('#add_cart').click(function(){
+
+                if($(".login_btn").text().indexOf("登录") > 0){
+					alert('请登录后再购买！');
+					location.href = '/user/login/';
+					return
+				}
+                $(".add_jump").stop().animate({
+                    'left': $to_y+7,
+                    'top': $to_x+7},
+                    "fast", function() {
+                        $(".add_jump").fadeOut('fast',function(){
+
+                        });
+
+                });
+
+                var num = parseInt($('.num_show').val());
+				$.get('/cart/add{{goods.id}}_' + num + '/', function(data){
+				   $('#show_count').html(data.count);
+				});
+
+            })
+        </script>
+{% endblock body %}
+

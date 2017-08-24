@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block body %}
+	<div class="main_wrap clearfix">
+
+		<div class="r_wrap fr clearfix">
+
+			<ul class="goods_type_list clearfix">
+
+				{% for goods in page.object_list %}
+				<li>
+					<a href="/goods/{{goods.object.id}}/"><img src="/static/{{goods.object.gpic}}"></a>
+					<h4><a href="/goods/{{goods.object.id}}/">{{goods.object.gtitle}}</a></h4>
+					<div class="operate">
+						<span class="prize">￥{{goods.object.gprice}}</span>
+						<span class="unit">{{goods.object.gprice}}/{{goods.object.gunit}}</span>
+						<a href="/cart/add{{goods.object.id}}_1/" class="add_goods" title="加入购物车"></a>
+					</div>
+				</li>
+				{% endfor %}
+
+			</ul>
+
+			<div class="pagenation">
+				{% if page.has_previous %}
+					<a href="/goods/search/?q={{query}}&amp;page={{page.previous_page_number}}/"><上一页</a>
+				{% endif %}
+				{% for page_num in paginator.page_range %}
+					{% if page_num == page.number %}
+						<a href="#" class="active">{{page_num}}</a>
+					{% else %}
+						<a href="/goods/search/?q={{query}}&amp;page={{page_num}}">{{page_num}}</a>
+					{% endif %}
+				{% endfor %}
+				{% if page.has_next %}
+					<a href="/goods/search/?q={{query}}&amp;page={{page.next_page_number}}/">下一页></a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+{% endblock body %}
